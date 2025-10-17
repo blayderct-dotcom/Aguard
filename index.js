@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 // --- SELF-PING (Render uyumasın diye) ---
-const selfURL = 'https://avengersguards-2.onrender.com/';
+const selfURL = 'https://aguard.onrender.com';
 
 // Node 18+ sürümlerinde fetch global olarak bulunur, import etmeye gerek yok
 // Ancak uyumluluk için kontrol ekliyoruz:
@@ -1073,3 +1073,4 @@ client.on(Events.GuildMemberAdd, async (member) => {
 
 // -------------------- BOT LOGIN --------------------
 client.login(process.env.TOKEN);
+
